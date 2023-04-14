@@ -9,6 +9,7 @@ import { initializeApp } from "firebase/app";
 import SEO from '../components/seo';
 import Header from '../components/homeTwo/Header';
 import Footer from '../components/Home/Footer';
+require("bootstrap/dist/js/bootstrap");
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
