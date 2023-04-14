@@ -30,7 +30,7 @@ const ContactArea = () => {
                   <div className="col-xxl-12">
                      <div className="page__title-wrapper mb-55">
                         <h2 className="page__title-2">Leave Us a Message.</h2>
-                        <p>Jolly good bevvy butty its all gone to pot that quaint so I said cheers.</p>
+                        <p> good bevvy butty its all gone to pot that quaint so I said cheers.</p>
                      </div>
                   </div>
                </div>
