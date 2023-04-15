@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 import useSticky from '../../hooks/useSticky';
-// import SidebarMenu from '../Sidebar/SidebarMenu';
+import SidebarMenu from '../Sidebar/SidebarMenu';
 
 const Header = () => {
    // handle sidebar show
@@ -48,7 +48,7 @@ const Header = () => {
             </div>
          </header>
 
-         {/* <SidebarMenu show={show} handleClose={handleClose} /> */}
+         <SidebarMenu show={show} handleClose={handleClose} />
       </>
    );
 };
