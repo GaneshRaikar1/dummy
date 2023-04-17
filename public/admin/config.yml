@@ -64,16 +64,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Img", name: "img", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      
-  - name: "ebazaar" # Used in routes, e.g., /admin/collections/blog
-    label: "E-Bazaar" # Used in the UI
-    folder: "content/ebazaar" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Img", name: "img", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "businesslisting" # Used in routes, e.g., /admin/collections/blog
     label: "Business Listing" # Used in the UI
