@@ -64,3 +64,25 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Img", name: "img", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  # - name: "list" # Used in routes, e.g., /admin/collections/blog
+  #   label: "List" # Used in the UI
+  #   file: "src/data/businessListing.json" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields: # The fields for each document, usually in front matter
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Img", name: "img", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Products Section"
+    name: "Products"
+    file: "src/content/businessListing.json"
+    fields:
+      - label: "Products"
+        name: "productList"
+        create: true
+        widget: "list"
+        fields:
+          - {label: "City", name: "City", widget: "string"}
+          - {label: "Website", name: "Website", widget: "string"}
