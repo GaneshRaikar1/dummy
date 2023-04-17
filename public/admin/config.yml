@@ -87,3 +87,18 @@ collections:
         fields:
           - {label: "City", name: "City", widget: "string"}
           - {label: "Website", name: "Website", widget: "string"}
+
+  - name: "menus"
+    label: "Menus"
+    files:
+    - label: "Menu"
+      name: "menu"
+      file: "src/data/businessListing.json"
+      widget: "list"
+      fields:
+        - label: "Menu"
+          name: "businessList"
+          widget: "object"
+          fields:
+          - { label: "City", name: "City", widget: "string"}
+          - { label: "Website", name: "Website", widget: "string"}
