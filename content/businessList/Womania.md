@@ -1,6 +1,6 @@
 ---
-fullName: "Seema Chitnavis",
-        contact: 9945468379,
+fullName: "Seema Chitnavis"
+        contact: 9945468379
         email: "a@gmail.com",
         address: " ",
         state: " ",
