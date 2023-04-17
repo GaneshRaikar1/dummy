@@ -75,7 +75,7 @@ collections:
       - {label: "Img", name: "img", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "business-listing" # Used in routes, e.g., /admin/collections/blog
+  - name: "businesslisting" # Used in routes, e.g., /admin/collections/blog
     label: "Business Listing" # Used in the UI
     folder: "content/businessList" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
