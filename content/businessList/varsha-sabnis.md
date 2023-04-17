@@ -2,7 +2,7 @@
 fullName: "Varsha Sabnis"
 contact: 9845376200
 email: "varshasuhas_sabnis@yahoo.co.in"
-address: "No 20 Jaladarshini Layout, New Bel Road",
+address: "No 20 Jaladarshini Layout, New Bel Road"
 state: "Karnataka"
 city: "Bangalore"
 pincode: 560054

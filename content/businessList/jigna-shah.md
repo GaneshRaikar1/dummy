@@ -1,5 +1,5 @@
 ---
- fullName: "Jigna Shah"
+fullName: "Jigna Shah"
 contact: 7204374735
 email: "gandhijigu@gmail.com"
 address: "B-408,Ittina abha apartment, Munnekollallu main road marathahalli Bangalore"
