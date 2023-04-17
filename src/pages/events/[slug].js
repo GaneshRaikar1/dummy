@@ -27,7 +27,7 @@ export default function Events({ frontmatter, markdown }) {
 											</div>
 										</li>
 										<li>
-											<h6>{frontmatter.date}</h6>
+											<h6>{frontmatter?.date}</h6>
 											<span>Published</span>
 										</li>
 									</ul>
