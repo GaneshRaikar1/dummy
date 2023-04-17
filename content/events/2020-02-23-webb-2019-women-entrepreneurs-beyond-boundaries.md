@@ -1,7 +1,7 @@
 ---
 templateKey: eventb-post
 title: WEB 2019 - Women Entrepreneurs Beyond Boundaries
-date: 2019-10-01T12:12:46.255Z
+date: '2019-10-01T12:12:46.255Z'
 description: " WEBB provides women entrepreneurs with a platform to connect"
 featuredpost: true
 featuredimage: /img/1.jpg
