@@ -73,10 +73,11 @@ collections:
   #   fields: # The fields for each document, usually in front matter
   #     - {label: "Title", name: "title", widget: "string"}
   #     - {label: "Img", name: "img", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Body", name: "body", widget: "markdown"}
 
   - label: "Products Section"
     name: "Products"
+    folder: "src/data"
     file: "src/data/businessListing.json"
     fields:
       - label: "Products"
