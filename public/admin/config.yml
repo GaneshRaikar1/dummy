@@ -77,10 +77,10 @@ collections:
 
   - label: "Products Section"
     name: "Products"
-    file: "src/content/businessListing.json"
+    file: "src/data/businessListing.json"
     fields:
       - label: "Products"
-        name: "productList"
+        name: "businessList"
         create: true
         widget: "list"
         fields:
