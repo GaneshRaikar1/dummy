@@ -20,5 +20,5 @@ status: "Active"
 registeredDate: 43675.0328125
 PaymentStatus: "Paid"
 GalleryImages: "https://swakruta.netlify.com/static/ad53658d229612b8d23d0307be253419/fb329/AD_Swakruta2019_35.jpg, https://swakruta.netlify.com/static/ad53658d229612b8d23d0307be253419/fb329/AD_Swakruta2019_39.jpg, https://swakruta.netlify.com/static/ad53658d229612b8d23d0307be253419/fb329/AD_Swakruta2019_42.jpg, https://swakruta.netlify.com/static/ad53658d229612b8d23d0307be253419/fb329/AD_Swakruta2019_43.jpg, https://swakruta.netlify.com/static/ad53658d229612b8d23d0307be253419/fb329/AD_Swakruta2019_62.jpg"
-Primary Image: "https://www.westshoredesign.com/wp-content/uploads/2016/04/Banner-1.png"
+PrimaryImage: "https://www.westshoredesign.com/wp-content/uploads/2016/04/Banner-1.png"
 ---
