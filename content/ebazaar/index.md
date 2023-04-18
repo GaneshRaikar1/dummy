@@ -1,7 +1,7 @@
 ---
 templateKey: contest-page
 title: E-Bazaar Launching on October 17, 2020
-img: 'http://www.swakruta.in/img/banner7.jpg'
+img: img/banner7.jpg
 ---
 Welcome to EBazaar!!
 

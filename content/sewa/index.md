@@ -1,7 +1,7 @@
 ---
 templateKey: sewa-page
 title: SEWA stands for Self Employed Women's Association
-img: 'http://www.swakruta.in/img/banner2.jpg'
+img: 'img/banner2.jpg'
 ---
 ![](http://www.swakruta.in/static/85976568287a517c9870ad87d786a8c7/07fe7/sewa2.jpg)
 

@@ -4,7 +4,7 @@ title: How MindleIt is changing the "Art Of Thinking"
 date: '2019-09-01T01:55:24.619Z'
 description: To Make Something Work Which Otherwise Wouldn't Work Without It
 featuredpost: true
-featuredimage: /img/mindle1.jpg
+featuredimage: /img/mindle2.jpg
 tags:
   - Inspiration
   - Stories

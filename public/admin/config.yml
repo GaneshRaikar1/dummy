@@ -74,3 +74,25 @@ collections:
       - {label: "Title", name: "fullName", widget: "string"}
       - {label: "Name", name: "businessName", widget: "string"}
       - {label: "Hobby", name: "interestHobby", widget: "string"}
+
+  - name: "home" # Used in routes, e.g., /admin/collections/blog
+    label: "Home" # Used in the UI
+    folder: "content/home" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "img", widget: "string"}
+      - {label: "Greeting Heading", name: "greetingHeading", widget: "string"}
+      - {label: "Greeting Descripition", name: "greetingDescripition", widget: "string"}
+
+  - name: "testimonials" # Used in routes, e.g., /admin/collections/blog
+    label: "Testimonials" # Used in the UI
+    folder: "content/testimonials" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "About", name: "title", widget: "string"}
+      - {label: "Descripition", name: "desc", widget: "string"}
+      - {label: "Image", name: "img", widget: "string"}
