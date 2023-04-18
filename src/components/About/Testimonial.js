@@ -35,6 +35,10 @@ const Testimonial = () => {
 			}
 		]
 	};
+
+	const carousel = [
+		{ img: 'img/c1', name: 'KCR Swakruta' }
+	]
 	return (
 		<>
 			<div className="testimonial__area pt-50 pb-115 fix">
@@ -47,7 +51,7 @@ const Testimonial = () => {
 							<div className="col-xxl-12">
 								<Slider {...settings} className="testimonial__slider wow fadeInUp" data-wow-delay=".5s">
 									{
-										testimonialData.map((testimonial, index) => {
+										carousel.map((testimonial, index) => {
 											return <div key={index} className="testimonial__item white-bg">
 												{/* <div className="testimonial__person d-flex mb-20">
 													<div className="testimonial__avater">

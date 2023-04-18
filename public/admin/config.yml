@@ -21,12 +21,12 @@ collections:
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "events" # Used in routes, e.g., /admin/collections/blog
-    label: "Events" # Used in the UI
-    folder: "content/events" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "events" 
+    label: "Events" 
+    folder: "content/events" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL"}
       - {label: "Description", name: "description", widget: "string"}
@@ -35,64 +35,121 @@ collections:
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "about" # Used in routes, e.g., /admin/collections/blog
-    label: "About" # Used in the UI
-    folder: "content/about" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "about" 
+    label: "About" 
+    folder: "content/about" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Img", name: "img", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "sewa" # Used in routes, e.g., /admin/collections/blog
-    label: "Sewa" # Used in the UI
-    folder: "content/sewa" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "sewa" 
+    label: "Sewa" 
+    folder: "content/sewa" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Img", name: "img", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "ebazaar" # Used in routes, e.g., /admin/collections/blog
-    label: "E-Bazaar" # Used in the UI
-    folder: "content/ebazaar" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "ebazaar" 
+    label: "E-Bazaar" 
+    folder: "content/ebazaar" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Img", name: "img", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "businesslisting" # Used in routes, e.g., /admin/collections/blog
-    label: "Business Listing" # Used in the UI
-    folder: "content/businessList" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "businesslisting" 
+    label: "Business Listing" 
+    folder: "content/businessList" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "fullName", widget: "string"}
       - {label: "Name", name: "businessName", widget: "string"}
       - {label: "Hobby", name: "interestHobby", widget: "string"}
 
-  - name: "home" # Used in routes, e.g., /admin/collections/blog
-    label: "Home" # Used in the UI
-    folder: "content/home" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "home" 
+    label: "Home" 
+    folder: "content/home" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "img", widget: "string"}
       - {label: "Greeting Heading", name: "greetingHeading", widget: "string"}
       - {label: "Greeting Descripition", name: "greetingDescripition", widget: "string"}
 
-  - name: "testimonials" # Used in routes, e.g., /admin/collections/blog
-    label: "Testimonials" # Used in the UI
-    folder: "content/testimonials" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "testimonials" 
+    label: "Testimonials" 
+    folder: "content/testimonials" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
       - {label: "Name", name: "name", widget: "string"}
       - {label: "About", name: "title", widget: "string"}
       - {label: "Descripition", name: "desc", widget: "string"}
       - {label: "Image", name: "img", widget: "string"}
+
+  - name: "carousels" 
+    label: "Carousels" 
+    folder: "content/carousel" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Image", name: "img", widget: "string"}
+
+  - name: "catering-and-food" 
+    label: "Catering and Food" 
+    folder: "content/stalls/catering-and-food" 
+    create: true 
+    slug: "{{slug}}" 
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+
+  - name: "clothing" 
+    label: "Clothing" 
+    folder: "content/stalls/clothing" 
+    create: true 
+    slug: "{{slug}}" 
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+
+  - name: "decorative-and-gift-items" 
+    label: "Decorative and Gift items" 
+    folder: "content/stalls/decorative-and-gift-items" 
+    create: true 
+    slug: "{{slug}}" 
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+
+  - name: "decorative-items" 
+    label: "Decorative Items" 
+    folder: "content/stalls/decorative-gift-items" 
+    create: true 
+    slug: "{{slug}}" 
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+
+  - name: "eco-friendly-and-furnishings" 
+    label: "Eco-friendly and Furnishings" 
+    folder: "content/stalls/eco-friendly-and-furnishings" 
+    create: true 
+    slug: "{{slug}}" 
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+
+  - name: "jewellery" 
+    label: "Jewellery" 
+    folder: "content/stalls/jewellery" 
+    create: true 
+    slug: "{{slug}}" 
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
