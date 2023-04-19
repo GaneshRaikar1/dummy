@@ -238,13 +238,13 @@ collections:
       - {label: "FaceBook Link", name: "fb", widget: "string"}
       - {label: "Instagram Link", name: "insta", widget: "string"}
 
-  - label: FAQS
-    name: faqs
-    widget: list
-    fields: 
-      - label: FAQ
-        name: faq
-        widget: object
-        fields:
-          - { label: Question, name: question, widget: string, default: "Question" }
-          - { label: Answer, name: answer, widget: string, default: "Answer" }
+  # - label: FAQS
+  #   name: faqs
+  #   widget: list
+  #   fields: 
+  #     - label: FAQ
+  #       name: faq
+  #       widget: object
+  #       fields:
+  #         - { label: Question, name: question, widget: string, default: "Question" }
+  #         - { label: Answer, name: answer, widget: string, default: "Answer" }
