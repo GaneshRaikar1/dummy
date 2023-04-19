@@ -17,7 +17,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Featuredpost", name: "featuredpost", widget: "boolean"}
-      - {label: "Featuredimage", name: "featuredimage", widget: "string"}
+      - {label: "Featuredimage", name: "featuredimage", widget: "image"}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -31,7 +31,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Featuredpost", name: "featuredpost", widget: "boolean"}
-      - {label: "Featuredimage", name: "featuredimage", widget: "string"}
+      - {label: "Featuredimage", name: "featuredimage", widget: "image"}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -52,7 +52,7 @@ collections:
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Img", name: "img", widget: "string"}
+      - {label: "Img", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "ebazaar" 
@@ -62,7 +62,7 @@ collections:
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Img", name: "img", widget: "string"}
+      - {label: "Img", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "businesslisting" 
@@ -93,7 +93,7 @@ collections:
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "img", widget: "string"}
+      - {label: "Image", name: "img", widget: "image"}
       - {label: "Greeting Heading", name: "greetingHeading", widget: "string"}
       - {label: "Greeting Descripition", name: "greetingDescripition", widget: "string"}
 
@@ -106,7 +106,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "About", name: "title", widget: "string"}
       - {label: "Descripition", name: "desc", widget: "string"}
-      - {label: "Image", name: "img", widget: "string"}
+      - {label: "Image", name: "img", widget: "image"}
 
   - name: "carousels" 
     label: "Carousels" 
@@ -115,7 +115,7 @@ collections:
     slug: "{{slug}}" 
     fields: 
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Image", name: "img", widget: "string"}
+      - {label: "Image", name: "img", widget: "image"}
 
   - name: "catering-and-food" 
     label: "Catering and Food" 
@@ -238,6 +238,13 @@ collections:
       - {label: "FaceBook Link", name: "fb", widget: "string"}
       - {label: "Instagram Link", name: "insta", widget: "string"}
 
+  - name: "services" 
+    label: "Services" 
+    folder: "content/services"
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Services", name: "services", widget: "list"}
+      
   # - label: FAQS
   #   name: faqs
   #   widget: list
