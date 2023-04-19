@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: "public/assets/img" # Where media files will be stored
-public_folder: "/assets/img" # Where the media files can be accesed from the server
+media_folder: "public/img" # Where media files will be stored
+public_folder: "/img" # Where the media files can be accesed from the server
 publish_mode: editorial_workflow # For Drafts
 
 collections:
@@ -42,7 +42,7 @@ collections:
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Img", name: "img", widget: "string"}
+      - {label: "Img", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "sewa" 
