@@ -3,7 +3,7 @@ services:
   - id: 1
     icon_img: assets/img/support/suport-1.png
     title: Customer Suppo
-    description: Oxford  Harry spend a penny get stuffed mate cup of char It is your round
+    description: Oxfo  Harry spend a penny get stuffed mate cup of char It is your round
   - id: 2
     icon_img: assets/img/support/suport-2.png
     title: Need Customization
