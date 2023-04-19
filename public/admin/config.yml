@@ -243,7 +243,12 @@ collections:
     folder: "content/services"
     slug: "{{slug}}" 
     fields: 
-      - {label: "Services", name: "services", widget: "list"}
+      - label: "Services" 
+        name: "services"
+        widget: "list"
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
       
   # - label: FAQS
   #   name: faqs
