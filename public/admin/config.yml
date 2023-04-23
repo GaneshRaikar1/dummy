@@ -37,13 +37,18 @@ collections:
 
   - name: "about" 
     label: "About" 
-    folder: "content/about" 
-    create: true 
+    folder: "content/about"
     slug: "{{slug}}" 
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Img", name: "img", widget: "image"}
+      - {label: "Image", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Carousel" 
+        name: "carousel"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "img", widget: "image"}
+          - {label: "Name", name: "name", widget: "string"}
 
   - name: "sewa" 
     label: "Sewa" 
@@ -249,6 +254,7 @@ collections:
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
+          - {label: "Img", name: "img", widget: "image"}
       
   # - label: FAQS
   #   name: faqs
