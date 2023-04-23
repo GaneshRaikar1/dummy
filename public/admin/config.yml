@@ -43,12 +43,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Carousel" 
-        name: "carousel"
-        widget: "list"
-        fields: 
-          - {label: "Image", name: "img", widget: "image"}
-          - {label: "Name", name: "name", widget: "string"}
+      # - label: "Carousel" 
+      #   name: "carousel"
+      #   widget: "list"
+      #   fields: 
+      #     - {label: "Image", name: "img", widget: "image"}
+      #     - {label: "Name", name: "name", widget: "string"}
 
   - name: "sewa" 
     label: "Sewa" 
