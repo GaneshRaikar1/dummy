@@ -1,7 +1,7 @@
 ---
 title: Welcome to Swakruta!
 img: /img/banner1.jpg
-carousel : [
+carousels : [
 	{ 
 		img: '/img/c1.jpg', 
 		name: 'CSR By Swakruta'
