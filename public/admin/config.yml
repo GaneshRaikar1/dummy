@@ -40,12 +40,12 @@ collections:
     folder: "content/about"
     slug: "{{slug}}" 
     fields: 
-      - label: "Carousel" 
-        name: "carousel"
+      - label: "Carousels" 
+        name: "carousels"
         widget: "list"
         fields: 
-          - label: "Ca"
-            name: "ca"
+          - label: "Carousel"
+            name: "carousel"
             widget: object
             fields:
               - {label: "Image", name: "img", widget: "image"}
