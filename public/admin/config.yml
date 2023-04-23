@@ -44,8 +44,12 @@ collections:
         name: "carousels"
         widget: "list"
         fields: 
-          - {label: "Image", name: "img", widget: "image"}
-          - {label: "Name", name: "name", widget: "string"}
+          - label: "Carousel" 
+            name: "carousel"
+            widget: "group"
+            fields:
+              - {label: "Image", name: "img", widget: "image"}
+              - {label: "Name", name: "name", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
