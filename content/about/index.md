@@ -1,17 +1,25 @@
 ---
-carousels : [
-	{id: 1,img: /img/c1.jpg,name: CSR By Swakruta},
-    {id: 2,img: /img/c2.jpg,name: Trade shows & Stalls},
-    {id: 3,img: /img/c3.jpg,name: Training Sessions by experts},
-    {id: 4,img: /img/c4.jpg,name: Members Stalls},
-    {id: 5,img: /img/c5.jpg,name: Entreprenuer Awards},
-    {id: 6,img: /img/c6.jpg,name: Helping underprivileged Women},
-    {id: 7,img: /img/c7.jpg,name: Workshops for our members},
-    {id: 8,img: /img/c8.jpg,name: Fun & Entertainment},
-    {id: 9,img: /img/c9.jpg,name: Trips By Swakruta},
-]
 title: Welcome to Swakruta!
 img: /img/banner1.jpg
+carousels : 
+	- img: /img/c1.jpg
+      name: CSR By Swakruta
+    - img: /img/c2.jpg
+      name: Trade shows & Stalls
+    - img: /img/c3.jpg
+      name: Training Sessions by experts
+    - img: /img/c4.jpg
+      name: Members Stalls
+    - img: /img/c5.jpg
+      name: Entreprenuer Awards
+    - img: /img/c6.jpg
+      name: Helping underprivileged Women
+    - img: /img/c7.jpg
+      name: Workshops for our members
+    - img: /img/c8.jpg
+      name: Fun & Entertainment
+    - img: /img/c9.jpg
+      name: Trips By Swakruta
 ---
 
 Swakruta is an NGO that promotes women entrepreneurship and supports women entrepreneurs to reach the pinnacle of success. Established in 2013, Swakruta has made a name for itself in the list of top NGO's from Bengaluru that promotes and supports women entrepreneurs across various fields like Arts, education, handicrafts, fashion, healthcare, IT, Retail, Ecommerce, etc
