@@ -20,6 +20,8 @@ carousel:
     name: Fun & Entertainment
   - img: /img/c9.jpg
     name: Trips By Swakruta
+  - img: /img/20140921_150548.jpg
+    name: abc
 ---
 
 Swakruta is an NGO that promotes women entrepreneurship and supports women entrepreneurs to reach the pinnacle of success. Established in 2013, Swakruta has made a name for itself in the list of top NGO's from Bengaluru that promotes and supports women entrepreneurs across various fields like Arts, education, handicrafts, fashion, healthcare, IT, Retail, Ecommerce, etc
