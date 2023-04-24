@@ -68,6 +68,12 @@ collections:
     create: true 
     slug: "{{slug}}" 
     fields: 
+      - label: "Gems" 
+        name: "gems"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "img", widget: "image"}
+          - {label: "Name", name: "name", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Img", name: "img", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}

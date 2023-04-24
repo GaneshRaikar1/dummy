@@ -2,7 +2,7 @@
 templateKey: sewa-page
 title: SEWA stands for Self Employed Women's Association
 img: 'img/banner2.jpg'
-carousels : [
+gems : [
 	{img: /img/c1.jpg,name: CSR By Swakruta},
     {img: /img/c2.jpg,name: Trade shows & Stalls},
     {img: /img/c3.jpg,name: Training Sessions by experts},
