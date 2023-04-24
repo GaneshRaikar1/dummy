@@ -21,18 +21,6 @@ collections:
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "carou" 
-    label: "Carou" 
-    folder: "content/carou"
-    slug: "{{slug}}" 
-    fields: 
-      - label: "Carousel" 
-        name: "carousel"
-        widget: "list"
-        fields: 
-          - {label: "Image", name: "img", widget: "image"}
-          - {label: "Name", name: "name", widget: "string"}
-
   - name: "events" 
     label: "Events" 
     folder: "content/events" 
@@ -52,8 +40,8 @@ collections:
     folder: "content/about"
     slug: "{{slug}}" 
     fields: 
-      - label: "Carousels" 
-        name: "carousels"
+      - label: "Carousel" 
+        name: "carousel"
         widget: "list"
         fields: 
           - {label: "Image", name: "img", widget: "image"}
@@ -68,8 +56,8 @@ collections:
     create: true 
     slug: "{{slug}}" 
     fields: 
-      - label: "Gems" 
-        name: "gems"
+      - label: "Carousel" 
+        name: "carousel"
         widget: "list"
         fields: 
           - {label: "Image", name: "img", widget: "image"}

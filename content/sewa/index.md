@@ -2,23 +2,32 @@
 templateKey: sewa-page
 title: SEWA stands for Self Employed Women's Association
 img: 'img/banner2.jpg'
-gems : [
-	{img: /img/c1.jpg,name: CSR By Swakruta},
-    {img: /img/c2.jpg,name: Trade shows & Stalls},
-    {img: /img/c3.jpg,name: Training Sessions by experts},
-    {img: /img/c4.jpg,name: Members Stalls},
-    {img: /img/c5.jpg,name: Entreprenuer Awards},
-    {img: /img/c6.jpg,name: Helping underprivileged Women},
-    {img: /img/c7.jpg,name: Workshops for our members},
-    {img: /img/c8.jpg,name: Fun & Entertainment},
-    {img: /img/c9.jpg,name: Trips By Swakruta},
-]
+carousel: 
+  - img: /img/c1.jpg
+    name: CSR By Swakruta
+  - img: /img/c2.jpg
+    name: Trade shows & Stalls
+  - img: /img/c3.jpg
+    name: Training Sessions by experts
+  - img: /img/c4.jpg
+    name: Members Stalls
+  - img: /img/c5.jpg
+    name: Entreprenuer Awards
+  - img: /img/c6.jpg
+    name: Helping underprivileged Women
+  - img: /img/c7.jpg
+    name: Workshops for our members
+  - img: /img/c8.jpg
+    name: Fun & Entertainment
+  - img: /img/c9.jpg
+    name: Trips By Swakruta
 ---
 ![](http://www.swakruta.in/static/85976568287a517c9870ad87d786a8c7/07fe7/sewa2.jpg)
 
 SEWA is our social project volunteered by our members. We intend to help women from economically weaker section of the society who provide different services but are not organized nor have job security.
 
-## Who can Apply:
+## Who can Apply
+
 * House maids
 * Cooks
 * Sweepers
@@ -33,11 +42,12 @@ We will be organizing different programs for these women as part of our CSR acti
 
 ![](/img/sewa3.jpg)
 
-## Services we impart:
+## Services we impart
+
 * Services to be imparted:
 * Health campaigns and checkups
 * Awareness about Hygiene
-* Opening of Bank accounts 
+* Opening of Bank accounts
 * Ayushman Card and its importance
 * Applying for Aadhar card/Ration Card/Voter ID Card
 * Skills Improvement Training

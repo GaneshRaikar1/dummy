@@ -1,7 +1,7 @@
 ---
 title: Welcome to Swakruta!
 img: /img/banner1.jpg
-carousels: 
+carousel: 
   - img: /img/c1.jpg
     name: CSR By Swakruta
   - img: /img/c2.jpg
